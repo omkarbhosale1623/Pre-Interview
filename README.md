@@ -1,6 +1,17 @@
 # Pre-Interview
 
+Phase 1 shows your current working system — plain HTTP, single SQLite file, no tenant separation, no WebRTC.
+
 <img width="1428" height="660" alt="image" src="https://github.com/user-attachments/assets/8ab03c6d-99e1-4d78-9db4-cd29aac70617" />
+
+Phase 2 introduces everything needed to run as a real product: multi-tenancy, Postgres, Redis, S3, resume + JD parsing, AI question generation, follow-up logic, and webhooks for ATS integration.
+
+<img width="1428" height="874" alt="image" src="https://github.com/user-attachments/assets/e3054642-d273-4d5c-b418-9ae986c962e6" />
+
+Phase 3 is where LiveKit and PipeCAT finally earn their place — sub-200ms barge-in, server-side voice agents, MediaPipe video proctoring, and a full ML pipeline at 1000+ concurrent scale. 
+
+<img width="1428" height="916" alt="image" src="https://github.com/user-attachments/assets/580227c7-b2d2-4e86-8afc-31b77c7d5f34" />
+
 
 > Speech-to-speech AI interview platform. Upload a question bank → conduct a live spoken interview → receive an AI-powered evaluation report. Three-phase roadmap from working PoC to enterprise-grade multi-tenant SaaS.
 
