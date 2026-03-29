@@ -1,0 +1,8 @@
+question,topic,difficulty,keywords
+"Tell me about a time you had to make a difficult technical decision under time pressure. What was the context and how did you approach it?",Behavioral,medium,"trade-off|urgency|decision|stakeholders"
+"How do you approach performance optimization in a large-scale web application?",Frontend Performance,hard,"profiling|lazy loading|bundle size|caching|metrics"
+"Describe your experience with state management. What patterns have you found most effective and why?",Architecture,medium,"Redux|Zustand|context|immutability|side effects"
+"How would you design a component library that needs to be used across multiple products?",System Design,hard,"reusability|API design|versioning|design tokens|documentation"
+"Walk me through how you debug a memory leak in a production React application.",Debugging,hard,"profiling|heap snapshot|useEffect|cleanup|Chrome DevTools"
+"How do you approach accessibility in your frontend work?",Accessibility,easy,"ARIA|screen reader|keyboard navigation|WCAG|semantic HTML"
+"Describe the most complex feature you've shipped. What made it complex and how did you manage that?",Leadership,medium,"scope|coordination|risk|delivery|communication"

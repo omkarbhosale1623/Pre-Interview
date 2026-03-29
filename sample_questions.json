@@ -1,0 +1,36 @@
+{
+  "name": "Product Manager Interview",
+  "role": "Product Manager",
+  "questions": [
+    {
+      "text": "Describe a product you launched from 0 to 1. What was your role and what was the outcome?",
+      "topic": "Product Delivery",
+      "difficulty": "medium",
+      "keywords": "launch|roadmap|metrics|stakeholders|iteration"
+    },
+    {
+      "text": "How do you decide what to build next when you have 10 competing feature requests?",
+      "topic": "Prioritization",
+      "difficulty": "medium",
+      "keywords": "RICE|impact|effort|user research|data"
+    },
+    {
+      "text": "Tell me about a time a product decision you made turned out to be wrong. How did you handle it?",
+      "topic": "Behavioral",
+      "difficulty": "medium",
+      "keywords": "pivot|learning|accountability|data|retrospective"
+    },
+    {
+      "text": "How would you define and measure success for a new onboarding flow?",
+      "topic": "Metrics & Analytics",
+      "difficulty": "hard",
+      "keywords": "activation|retention|funnel|A/B test|north star"
+    },
+    {
+      "text": "Describe how you work with engineering when there's a disagreement about scope or timeline.",
+      "topic": "Cross-functional",
+      "difficulty": "medium",
+      "keywords": "negotiation|tradeoff|trust|alignment|compromise"
+    }
+  ]
+}
