@@ -34,10 +34,10 @@ class Settings(BaseSettings):
     session_expire_hours: int = 72
 
     # ── CORS ──────────────────────────────────────────────────────────────────
-    cors_origins: list[str] = ["http://localhost:5173", "http://localhost:3000"]
+    cors_origins: list[str] = ["http://preinterview-frontend.s3-website.eu-north-1.amazonaws.com"]
 
     # ── App URL ───────────────────────────────────────────────────────────────
-    app_base_url: str = "http://localhost:5173"
+    app_base_url: str = "http://preinterview-frontend.s3-website.eu-north-1.amazonaws.com"
 
     # ── SMTP ──────────────────────────────────────────────────────────────────
     smtp_server: str = "smtp.gmail.com"
