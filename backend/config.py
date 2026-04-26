@@ -30,7 +30,7 @@ class Settings(BaseSettings):
     openrouter_site_name: str = "Pre-Interview AI"
 
     # ── Recruiter Auth ────────────────────────────────────────────────────────
-    jwt_secret: str = "change-me-in-production-please-use-long-random-string"
+    jwt_secret: str = "0dPks88NbLgXNQorlnH_Ltkm5n0dL_klNH4ofo6YXeLHVb9A2j3JfR6Sy6U6k2pkT7cdzeUzncQDNu3NcAxIUg"
     session_expire_hours: int = 72
 
     # ── CORS ────────────────────────────────────────────────────────────
@@ -50,7 +50,7 @@ class Settings(BaseSettings):
     elevenlabs_api_key: str = ""
 
     # ── SQLite ──────���─────────────────────────────────────────────────────
-    database_url: str = "sqlite:///./preinterviewai.db"
+   # database_url: str = "sqlite:///./preinterviewai.db"
 
     model_config = SettingsConfigDict(
         env_file=_ENV_FILE,
