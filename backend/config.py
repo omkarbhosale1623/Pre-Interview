@@ -33,13 +33,13 @@ class Settings(BaseSettings):
     jwt_secret: str = "change-me-in-production-please-use-long-random-string"
     session_expire_hours: int = 72
 
-    # ── CORS ──────────────────────────────────────────────────────────────────
-    cors_origins: list[str] = ["http://preinterview-frontend.s3-website.eu-north-1.amazonaws.com"]
+    # ── CORS ────────────────────────────────────────────────────────────
+    cors_origins: list[str] = ["https://preinterview-frontend.s3-website.eu-north-1.amazonaws.com"]
 
-    # ── App URL ───────────────────────────────────────────────────────────────
-    app_base_url: str = "http://preinterview-frontend.s3-website.eu-north-1.amazonaws.com"
+    # ── App URL ───────────────────────────────────────────────────────────
+    app_base_url: str = "https://preinterview-frontend.s3-website.eu-north-1.amazonaws.com"
 
-    # ── SMTP ──────────────────────────────────────────────────────────────────
+    # ── SMTP ────────────────────────────────────────────────────────────
     smtp_server: str = "smtp.gmail.com"
     smtp_port: int = 587
     smtp_username: str = ""
@@ -49,7 +49,7 @@ class Settings(BaseSettings):
     # ── ElevenLabs TTS ────────────────────────────────────────────────────────
     elevenlabs_api_key: str = ""
 
-    # ── SQLite ────────────────────────────────────────────────────────────────
+    # ── SQLite ──────���─────────────────────────────────────────────────────
     database_url: str = "sqlite:///./preinterviewai.db"
 
     model_config = SettingsConfigDict(
